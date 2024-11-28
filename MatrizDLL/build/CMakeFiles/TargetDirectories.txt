@@ -1,0 +1,3 @@
+C:/Users/HP/Desktop/SEMESTRE 4/ESTRUCTURA DE DATOS 2.0/MatrizDLL/build/CMakeFiles/MatrizDLL.dir
+C:/Users/HP/Desktop/SEMESTRE 4/ESTRUCTURA DE DATOS 2.0/MatrizDLL/build/CMakeFiles/edit_cache.dir
+C:/Users/HP/Desktop/SEMESTRE 4/ESTRUCTURA DE DATOS 2.0/MatrizDLL/build/CMakeFiles/rebuild_cache.dir

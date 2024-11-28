@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/HP/Desktop/SEMESTRE 4/ESTRUCTURA DE DATOS 2.0/MatrizDLL/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\MatrizDLL.dir\\matrizLambda.cpp.obj -c \"C:\\Users\\HP\\Desktop\\SEMESTRE 4\\ESTRUCTURA DE DATOS 2.0\\MatrizDLL\\matrizLambda.cpp\"",
+  "file": "C:/Users/HP/Desktop/SEMESTRE 4/ESTRUCTURA DE DATOS 2.0/MatrizDLL/matrizLambda.cpp",
+  "output": "CMakeFiles/MatrizDLL.dir/matrizLambda.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/SEMESTRE 4/ESTRUCTURA DE DATOS 2.0/MatrizDLL/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\MatrizDLL.dir\\MatrizDLL.cpp.obj -c \"C:\\Users\\HP\\Desktop\\SEMESTRE 4\\ESTRUCTURA DE DATOS 2.0\\MatrizDLL\\MatrizDLL.cpp\"",
+  "file": "C:/Users/HP/Desktop/SEMESTRE 4/ESTRUCTURA DE DATOS 2.0/MatrizDLL/MatrizDLL.cpp",
+  "output": "CMakeFiles/MatrizDLL.dir/MatrizDLL.cpp.obj"
+},
+{
+  "directory": "C:/Users/HP/Desktop/SEMESTRE 4/ESTRUCTURA DE DATOS 2.0/MatrizDLL/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\MatrizDLL.dir\\Main.cpp.obj -c \"C:\\Users\\HP\\Desktop\\SEMESTRE 4\\ESTRUCTURA DE DATOS 2.0\\MatrizDLL\\Main.cpp\"",
+  "file": "C:/Users/HP/Desktop/SEMESTRE 4/ESTRUCTURA DE DATOS 2.0/MatrizDLL/Main.cpp",
+  "output": "CMakeFiles/MatrizDLL.dir/Main.cpp.obj"
+}
+]

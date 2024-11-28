@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\cmake-3.31.1-windows-x86_64\bin\cmake.exe" -E rm -f CMakeFiles\MatrizDLL.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\MatrizDLL.dir/objects.a @CMakeFiles\MatrizDLL.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\MatrizDLL.dir/objects.a -Wl,--no-whole-archive -o MatrizDLL.exe -Wl,--out-implib,libMatrizDLL.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MatrizDLL.dir\linkLibs.rsp
