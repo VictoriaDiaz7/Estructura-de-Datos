@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Usuario</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            display: flex;
+        }
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            background: #343a40;
+            color: white;
+            padding-top: 20px;
+            position: fixed;
+        }
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            padding: 15px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .sidebar ul li:hover {
+            background: #495057;
+        }
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+            width: calc(100% - 270px);
+        }
+        .section {
+            display: none;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .section.active {
+            display: block;
+        }
+    </style>
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(sectionId).classList.add('active');
+        }
+    </script>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Menú</h2>
+        <ul>
+            <li onclick="showSection('nav')">Navegación</li>
+            <li onclick="showSection('options')">Opciones</li>
+            <li onclick="showSection('exit')">Salir</li>
+            <li onclick="showSection('help')">Ayuda</li>
+            <li onclick="showSection('features')">Funcionalidades</li>
+            <li onclick="showSection('conclusion')">Conclusión</li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1>Manual de Usuario</h1>
+        <div id="nav" class="section active">
+            <h2>Navegación en los menús</h2>
+            <p>Usa las teclas de flecha ARRIBA (↑) y ABAJO (↓) para moverte entre las opciones del menú.</p>
+        </div>
+        <div id="options" class="section">
+            <h2>Seleccionar una opción</h2>
+            <p>Presiona la tecla ENTER (↵) para seleccionar una opción.</p>
+        </div>
+        <div id="exit" class="section">
+            <h2>Salir de un menú</h2>
+            <p>Presiona la tecla ESC para salir del menú actual.</p>
+        </div>
+        <div id="help" class="section">
+            <h2>Acceder a la ayuda</h2>
+            <p>Presiona la tecla F2 para ver esta pantalla de ayuda.</p>
+        </div>
+        <div id="features" class="section">
+            <h2>Funcionalidades del sistema</h2>
+            <h3>Gestionar Clientes</h3>
+            <p>Insertar Cliente: Agrega un nuevo cliente al sistema.</p>
+            <p>Buscar Cliente: Busca un cliente por RUC o nombre.</p>
+            <p>Mostrar Clientes: Muestra una lista de todos los clientes registrados.</p>
+            <p>Modificar Cliente: Actualiza la información de un cliente existente.</p>
+            <p>Eliminar Cliente: Elimina un cliente del sistema.</p>
+            <p>Mostrar Mapa General: Genera un gráfico del grafo de clientes.</p>
+            <p>Mostrar Ruta Óptima: Calcula y muestra la ruta más corta desde la fábrica hasta un cliente.</p>
+            
+            <h3>Gestionar Pedidos</h3>
+            <p>Insertar Pedido: Registra un nuevo pedido en el sistema.</p>
+            <p>Confirmar Estado: Cambia el estado de un pedido (en proceso, entregado, cancelado).</p>
+            <p>Buscar Pedido: Busca un pedido por número o destinatario.</p>
+            <p>Mostrar Pedidos: Muestra una lista de todos los pedidos registrados.</p>
+            <p>Eliminar Pedido: Elimina un pedido del sistema.</p>
+            <p>Crear Backup: Guarda una copia de seguridad de los pedidos.</p>
+            <p>Restaurar Backup: Recupera los pedidos desde una copia de seguridad.</p>
+            
+            <h3>Gestionar Herramientas</h3>
+            <p>Insertar Herramienta: Agrega una nueva herramienta al inventario.</p>
+            <p>Cambiar Stock: Modifica la cantidad de una herramienta en el inventario.</p>
+            <p>Buscar Herramienta: Busca una herramienta por ID o nombre.</p>
+            <p>Mostrar Herramientas: Muestra una lista de todas las herramientas registradas.</p>
+            <p>Modificar Herramienta: Actualiza la información de una herramienta existente.</p>
+            <p>Eliminar Herramienta: Elimina una herramienta del inventario.</p>
+        </div>
+        <div id="conclusion" class="section">
+            <h2>Conclusión</h2>
+            <p>¡Eso es todo! Si tienes alguna duda, consulta esta ayuda en cualquier momento.</p>
+        </div>
+    </div>
+</body>
+</html>

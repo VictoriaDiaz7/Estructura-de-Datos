@@ -1,0 +1,62 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 44 >>
+stream
+BT /F1 12 Tf 50 750 Td (Lista de clientes:) Tj ET
+BT /F1 12 Tf 50 730 Td (Cliente: Carlos (RUC: 1234567890123)) Tj ET
+BT /F1 12 Tf 50 710 Td (Referencia 1: Oro) Tj ET
+BT /F1 12 Tf 50 690 Td (Referencia 2: Plata) Tj ET
+BT /F1 12 Tf 50 670 Td (Distancia total: 15 km) Tj ET
+BT /F1 12 Tf 50 650 Td (Distancia a Ref1: 3 km) Tj ET
+BT /F1 12 Tf 50 630 Td (Distancia a Ref2: 12.5 km) Tj ET
+BT /F1 12 Tf 50 590 Td (Cliente: Oro (RUC: 3231213213212)) Tj ET
+BT /F1 12 Tf 50 570 Td (Referencia 1: Carlos) Tj ET
+BT /F1 12 Tf 50 550 Td (Referencia 2: null) Tj ET
+BT /F1 12 Tf 50 530 Td (Distancia total: 17 km) Tj ET
+BT /F1 12 Tf 50 510 Td (Distancia a Ref1: 3 km) Tj ET
+BT /F1 12 Tf 50 490 Td (Distancia a Ref2: 0 km) Tj ET
+BT /F1 12 Tf 50 450 Td (Cliente: Dana (RUC: 1727095414001)) Tj ET
+BT /F1 12 Tf 50 430 Td (Referencia 1: Oro) Tj ET
+BT /F1 12 Tf 50 410 Td (Referencia 2: null) Tj ET
+BT /F1 12 Tf 50 390 Td (Distancia total: 3 km) Tj ET
+BT /F1 12 Tf 50 370 Td (Distancia a Ref1: 2.1 km) Tj ET
+BT /F1 12 Tf 50 350 Td (Distancia a Ref2: 0 km) Tj ET
+BT /F1 12 Tf 50 310 Td (Cliente: Juanito (RUC: 1700799198001)) Tj ET
+BT /F1 12 Tf 50 290 Td (Referencia 1: Carlos) Tj ET
+BT /F1 12 Tf 50 270 Td (Referencia 2: null) Tj ET
+BT /F1 12 Tf 50 250 Td (Distancia total: 6.4 km) Tj ET
+BT /F1 12 Tf 50 230 Td (Distancia a Ref1: 1.6 km) Tj ET
+BT /F1 12 Tf 50 210 Td (Distancia a Ref2: 0 km) Tj ET
+BT /F1 12 Tf 50 170 Td (Cliente: Anita (RUC: 1727095623111)) Tj ET
+BT /F1 12 Tf 50 150 Td (Referencia 1: Dana) Tj ET
+BT /F1 12 Tf 50 130 Td (Referencia 2: null) Tj ET
+BT /F1 12 Tf 50 110 Td (Distancia total: 3.4 km) Tj ET
+BT /F1 12 Tf 50 90 Td (Distancia a Ref1: 1.6 km) Tj ET
+BT /F1 12 Tf 50 70 Td (Distancia a Ref2: 0 km) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000010 00000 n 
+0000000079 00000 n 
+0000000178 00000 n 
+0000000371 00000 n 
+0000000450 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+519
+%%EOF

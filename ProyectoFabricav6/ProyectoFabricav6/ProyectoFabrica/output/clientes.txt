@@ -1,0 +1,5 @@
+1234567890123 Carlos Oro Juanito 15 3 12.5
+3231213213212 Oro Carlos null 17 3 0
+1727095414001 Dana Oro null 3 2.1 0
+1700799198001 Juanito Carlos null 6.4 1.6 0
+1727095623111 Anita Dana null 3.4 1.6 0
